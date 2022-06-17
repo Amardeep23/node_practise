@@ -5,3 +5,4 @@ const kuchBhi = {
 }
 
 module.exports.xyz = kuchBhi
+console.log(module)

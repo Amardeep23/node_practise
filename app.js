@@ -8,7 +8,7 @@
 // npm install -g <packageName>
 
 /// package.json - manifest file (stores important info about project/package)
-// manula approach (create package.json in the root, create properties , etc)
+// manual approach (create package.json in the root, create properties , etc)
 // npm init (step by step, press enter to skip)
 // npm init -y  (everyhing by default)
 
@@ -18,3 +18,4 @@ const items = [1, [2, [3, [4]]]]
 
 const newItems = _.flattenDeep(items)
 console.log(newItems)
+console.log("Changed Dynamically")
